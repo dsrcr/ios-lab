@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SB3-d2-fHd">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Menu-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="portfolio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="CVV">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2jx-Ql-Zis">
+                                <rect key="frame" x="145.33333333333334" y="345.33333333333331" width="102.33333333333334" height="161.33333333333331"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="44p-cb-7zX" customClass="RoundedButton" customModule="portfolio" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="102.33333333333333" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Malarstwo"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" systemColor="systemMintColor"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shouldRoundLeftBottomCorner" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shouldRoundLeftTopCorner" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shouldRoundRightBottomCorner" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shouldRoundRightTopCorner" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqM-4N-ZE0" customClass="RoundedButton" customModule="portfolio" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="42.333333333333371" width="102.33333333333333" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Fotografia"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" systemColor="systemMintColor"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shouldRoundLeftBottomCorner" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shouldRoundLeftTopCorner" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shouldRoundRightBottomCorner" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shouldRoundRightTopCorner" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Odr-Ss-Xyk" customClass="RoundedButton" customModule="portfolio" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="84.666666666666686" width="102.33333333333333" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="CV"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" systemColor="systemMintColor"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shouldRoundLeftBottomCorner" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shouldRoundLeftTopCorner" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shouldRoundRightBottomCorner" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shouldRoundRightTopCorner" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PEb-i7-Kr6" customClass="RoundedButton" customModule="portfolio" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="126.99999999999999" width="102.33333333333333" height="34.333333333333329"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Kontakt"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" systemColor="systemMintColor"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shouldRoundLeftBottomCorner" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shouldRoundLeftTopCorner" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shouldRoundRightBottomCorner" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shouldRoundRightTopCorner" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="S7U-Ow-If2" kind="push" id="mkC-E5-Luk"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="PEb-i7-Kr6" firstAttribute="top" secondItem="Odr-Ss-Xyk" secondAttribute="bottom" constant="246" id="3H3-mg-iZU"/>
+                                    <constraint firstItem="PEb-i7-Kr6" firstAttribute="leading" secondItem="2jx-Ql-Zis" secondAttribute="leading" constant="45" id="UTZ-v8-39r"/>
+                                    <constraint firstAttribute="trailing" secondItem="PEb-i7-Kr6" secondAttribute="trailing" constant="45" id="lLc-ed-9A4"/>
+                                    <constraint firstAttribute="bottom" secondItem="PEb-i7-Kr6" secondAttribute="bottom" constant="265" id="tzr-Xc-4Hs"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2jx-Ql-Zis" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Irz-Ge-9hs"/>
+                            <constraint firstItem="2jx-Ql-Zis" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TEl-W8-p4q"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Menu" largeTitleDisplayMode="always" id="jRm-ax-LV2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="327" y="-16"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="08l-eZ-ImS">
+            <objects>
+                <viewController id="S7U-Ow-If2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hQs-mK-Fg0">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZIt-GN-ld7">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Jan Kowalski
+tel: +48 600 600 600
+homepage: www.google.pl
+ul. Ignacego Łukasiewicza 1 Wrocław</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="YtS-gI-p1J"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZIt-GN-ld7" firstAttribute="top" secondItem="YtS-gI-p1J" secondAttribute="top" id="9Cl-cZ-uYi"/>
+                            <constraint firstItem="ZIt-GN-ld7" firstAttribute="leading" secondItem="YtS-gI-p1J" secondAttribute="leading" id="QpJ-Gi-vGj"/>
+                            <constraint firstItem="YtS-gI-p1J" firstAttribute="trailing" secondItem="ZIt-GN-ld7" secondAttribute="trailing" id="W6z-kG-wfV"/>
+                            <constraint firstItem="YtS-gI-p1J" firstAttribute="bottom" secondItem="ZIt-GN-ld7" secondAttribute="bottom" id="eOz-ap-dI7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="rfR-Zd-AIV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dov-1Q-q8R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="990" y="-16"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gY0-dc-NWT">
+            <objects>
+                <viewController id="dd3-c0-wCf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tSH-xP-9Za">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="45R-gL-ZDi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bKn-Fg-Lkc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1708" y="-16"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fDR-Ny-dRL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="SB3-d2-fHd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ddh-J0-6Up">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <navigationBarAppearance key="standardAppearance">
+                            <textAttributes key="largeTitleTextAttributes"/>
+                        </navigationBarAppearance>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="7Zn-4K-zIe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iN4-db-ZWo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-344.27480916030532" y="-16.197183098591552"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="44p-cb-7zX">
+            <size key="intrinsicContentSize" width="102.33333333333333" height="34.333333333333336"/>
+        </designable>
+        <designable name="Odr-Ss-Xyk">
+            <size key="intrinsicContentSize" width="47" height="34.333333333333336"/>
+        </designable>
+        <designable name="PEb-i7-Kr6">
+            <size key="intrinsicContentSize" width="82.666666666666671" height="34.333333333333336"/>
+        </designable>
+        <designable name="fqM-4N-ZE0">
+            <size key="intrinsicContentSize" width="101.66666666666667" height="34.333333333333336"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
